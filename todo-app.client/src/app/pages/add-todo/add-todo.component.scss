@@ -1,0 +1,44 @@
+.add-todo {
+    padding: 40px 5%;
+
+    .add-todo__titulo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form-add-todo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            label {
+                margin-bottom: 10px;
+            }
+
+            textarea {
+                border: 1px solid #ccc;
+                padding: 10px;
+                border-radius: 20px;
+                resize: none;
+                outline: 0;
+            }
+        }
+
+        .form-add-todo__botao {
+            border: 0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            background-color: darkblue;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    }
+}

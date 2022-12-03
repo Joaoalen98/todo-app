@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+
+:root {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 0.95rem;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 0.85rem;
+}
+
+p,
+button,
+a,
+span,
+li,
+div,
+article,
+section,
+input,
+textarea,
+label {
+    font-size: 0.7rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}

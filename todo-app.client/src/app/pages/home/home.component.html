@@ -1,0 +1,12 @@
+<section class="home">
+    <h2 class="home__titulo">Suas Tarefas:</h2>
+
+    <p class="home__aviso-carregando-todos" *ngIf="carregandoTodos">Carregando...</p>
+    <p class="home__aviso-sem-todos" *ngIf="todos.length == 0">Você não possui tarefas cadastradas</p>
+
+    <ul class="todos-list">
+        <li class="todos-list__item" *ngFor="let todo of todos">
+            <app-card-todo (atualizaTodos)="getTodos()" [todo]="todo"></app-card-todo>
+        </li>
+    </ul>
+</section>

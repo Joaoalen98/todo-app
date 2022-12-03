@@ -1,0 +1,14 @@
+<section class="add-todo">
+    <h2 class="add-todo__titulo">Adicionar nova tarefa</h2>
+
+    <form class="form-add-todo" [formGroup]="form">
+        <div class="input-container">
+            <label for="titulo">Titulo</label>
+            <textarea formControlName="titulo" id="titulo" name="titulo" rows="3"></textarea>
+        </div>
+
+        <button class="form-add-todo__botao" (click)="adicionarTodo()">
+            Salvar
+        </button>
+    </form>
+</section>

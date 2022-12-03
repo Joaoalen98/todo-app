@@ -1,0 +1,25 @@
+<header class="header">
+    <h1 class="header__titulo">Todo App</h1>
+    <nav class="header__nav">
+        <ul class="header__ul">
+            <li>
+                <a [routerLinkActiveOptions]="{ exact: true}" routerLinkActive="link-ativo" routerLink="/">Home</a>
+            </li>
+            <li>
+                <a routerLinkActive="link-ativo" routerLink="add-todo">Adicionar Todo</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="header__nav-mobile" (click)="abreMenu()">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="header__ul-mobile" [ngClass]="menuMobileAberto ? 'header__nav-mobile--ativo' : ''">
+            <li>
+                <a [routerLinkActiveOptions]="{ exact: true}" routerLinkActive="link-ativo" routerLink="/">Home</a>
+            </li>
+            <li>
+                <a routerLinkActive="link-ativo" routerLink="add-todo">Adicionar Todo</a>
+            </li>
+        </ul>
+    </nav>
+</header>
