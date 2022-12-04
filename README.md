@@ -72,6 +72,10 @@ Remove um todo do banco para o id informado, retornando Not Found se o mesmo nã
 
 <br>
 
+Créditos ao balta pelo desenvolvimento da API. Vídeo: https://www.youtube.com/watch?v=QzCSN9wN4JA&ab_channel=balta.io
+
+<br>
+
 ## Front-End 
 
 O front-end da aplicação conta com duas telas bem simples, na qual a tela de home é responsável por exibir as tarefas cadastradas np banco de dados da API, e editar as mesmas.
