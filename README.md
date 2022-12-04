@@ -1,8 +1,12 @@
-# CRUD TodoApp
+# Todo App
+
+Aplicativo para cadastro de tarefas, utilizando um API em C#, e front-end em angular.
+
+## CRUD TodoApp
 
 Um CRUD simples com api em C#, utilizando Entity Framework com Sqlite.
 
-## Como Executar
+### Como Executar
 
 Para executar o projeto, é preciso ter instalado em sua máquina o CLI do ef core. Um tutorial completo sobre o mesmo está disponível [Aqui](https://learn.microsoft.com/pt-br/ef/core/cli/dotnet).
 
@@ -22,7 +26,7 @@ A API irá rodar nos seguintes endereços: `https://localhost:5001` e `http://lo
 
 <br>
 
-## Rotas
+### Rotas
 
 `GET /todos`
 
@@ -65,3 +69,7 @@ Exemplo de corpo na requisição:
 Remove um todo do banco para o id informado, retornando Not Found se o mesmo não for encontrado no banco.
 
 <br>
+
+## Front-End 
+
+

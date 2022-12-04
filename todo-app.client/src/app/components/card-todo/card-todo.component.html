@@ -1,8 +1,11 @@
 <article class="todo-card">
     <form class="todo-card__form" [formGroup]="formEdicao">
-        <textarea rows="5" formControlName="titulo" class="todo-card__text">
+
+        <textarea [ngClass]="todo.done ? 'todo-card__text--completado' : ''" rows="3" formControlName="titulo"
+            class="todo-card__text">
             {{ todo.title }}
         </textarea>
+
         <div class="input-container">
             <input formControlName="completo" id="check-completo-{{todo.id}}" type="checkbox"
                 class="todo-card__done-select" [checked]="todo.done" />
@@ -15,6 +18,7 @@
         <button class="todo-card__action-button" (click)="editarTodo()">
             Editar
         </button>
+
         <button class="todo-card__action-button" (click)="deletarTodo()">
             <i class="fa-solid fa-trash"></i>
         </button>
