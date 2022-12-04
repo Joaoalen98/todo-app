@@ -2,7 +2,9 @@
 
 Aplicativo para cadastro de tarefas, utilizando um API em C#, e front-end em angular.
 
-## CRUD TodoApp
+<br>
+
+## API
 
 Um CRUD simples com api em C#, utilizando Entity Framework com Sqlite.
 
@@ -71,5 +73,18 @@ Remove um todo do banco para o id informado, retornando Not Found se o mesmo nã
 <br>
 
 ## Front-End 
+
+O front-end da aplicação conta com duas telas bem simples, na qual a tela de home é responsável por exibir as tarefas cadastradas np banco de dados da API, e editar as mesmas.
+
+### Tela home vazia
+![image](https://user-images.githubusercontent.com/89602176/205467570-4c855d9a-96c1-4855-b948-5049a4162eb3.png)
+
+### Tela home com uma tarefa
+![image](https://user-images.githubusercontent.com/89602176/205467597-fb24d941-1719-4448-ac2d-3de403bd8373.png)
+
+### Tela do form
+![image](https://user-images.githubusercontent.com/89602176/205467580-de629deb-fb2d-4685-bb2d-032bff948f5c.png)
+
+
 
 
