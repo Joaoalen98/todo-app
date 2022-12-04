@@ -1,6 +1,6 @@
 # Todo App
 
-Aplicativo para cadastro de tarefas, utilizando um API em C#, e front-end em angular.
+Aplicativo para cadastro de tarefas, utilizando um API em C# e front-end em angular.
 
 <br>
 
